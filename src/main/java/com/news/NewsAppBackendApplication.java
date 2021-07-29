@@ -5,8 +5,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class NewsAppBackendApplication {
+	
+	static {
+		System.out.println("News Application started here ");
+	}
 
 	public static void main(String[] args) {
+
+		
 		SpringApplication.run(NewsAppBackendApplication.class, args);
 	}
 
