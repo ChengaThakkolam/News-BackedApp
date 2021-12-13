@@ -12,7 +12,7 @@ import com.news.response.ArticlesResponse;
 @RequestMapping("/news")
 public class NewsApiController {
 
-	String key="1eaf6339708c42fea8652ca1b8444f80";
+	String key="";
 	String everythingNewsApi="https://newsapi.org/v2/everything?q=bitcoin&contry=in&apiKey="+key;
 	
 	@GetMapping("/hello")
